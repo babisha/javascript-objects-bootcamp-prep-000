@@ -7,5 +7,5 @@ function updatePlaylist(object, Justin, baby) {
 }
 
 function removeFromPlaylist(object, Justin) {
-  delete object.Justin
+  delete playlist.Justin
 }
