@@ -6,8 +6,8 @@ function updatePlaylist(object, Justin, baby) {
   return object  
 }
 
-function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName
+function removeFromPlaylist(playlister, artistName) {
+  delete playlister.artistName
   
-  return playlist
+  return playlister
 }
